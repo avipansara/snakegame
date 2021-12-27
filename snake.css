@@ -1,0 +1,62 @@
+* {
+    font-family: "arial";
+}
+
+.snake-game {
+    display: grid;
+    justify-content: left;
+    gap: 20px;
+    position: relative;
+}
+
+.snake-container {
+    display: grid;
+    grid-template-columns: repeat(20, 25px);
+    width: 500px;
+    height: 500px;
+    background-color: lightgray;
+}
+
+.centered-container {
+    justify-content: center;
+    grid-template-columns: unset;
+    align-items: center;
+}
+
+.tile {
+    height: 25px;
+    width: 25px;
+}
+
+.real-snake {
+    background: black;
+}
+
+.food {
+    background: #FF5B52;
+}
+
+#button {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #4979FF;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background: #80A1FF;
+}
+
+.gameover {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
